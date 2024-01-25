@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.tile {
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    background-color: black;
+}
+
+.title {
+    font-size: 32px;
+    margin: 0;
+}
+
+.square {
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: grey;
+}
+
+.filled {
+    color: black;
+}
+
+.game {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 72px;
+    justify-content: center;
+    flex: auto;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif; 
+    width: 165px;
+    font-size: 18px;
+    padding: 6px;
+    margin-top: 12px;
+    background-color: rgb(251, 249, 249);
+}
+
+.message {
+    height: 32px;
+    background-color: white;
+    font-size: 32px;
+}
